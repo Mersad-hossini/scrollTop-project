@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.scroll {
+    background-color: red;
+    height: 10px;
+    position: fixed;
+}
+
+.Box {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+
+.gray {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: gray;
+}
+
+.blue {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: lightseagreen;
+}
